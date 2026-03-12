@@ -6,8 +6,8 @@ SSAFY 서울 2반 알고리즘 스터디
 
 | 김지윤 | 김호준 | 송수빈 | 오현우 | 정유진 | 조유진 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| [zbqlxm5484-netizen](https://github.com/zbqlxm5484-netizen) | [hj0304](https://github.com/hj0304) | [suvinn](https://github.com/suvinn) | [RAIDENKO](https://github.com/RAIDENKO) | [jadewisemann](https://github.com/jadewisemann) | |
-| | | | | jade | |
+| [zbqlxm5484-netizen](https://github.com/zbqlxm5484-netizen) | [hj0304](https://github.com/hj0304) | [suvinn](https://github.com/suvinn) | [RAIDENKO](https://github.com/RAIDENKO) | [jadewisemann](https://github.com/jadewisemann) | [olaflove](https://github.com/olaflove) |
+| kjy | khj | ssb |  | jade | cyj |
 
 
 ## 운영 규칙
