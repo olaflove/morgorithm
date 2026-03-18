@@ -1,0 +1,24 @@
+name: Auto Add Author to PR Title
+
+on:
+  pull_request_target:
+    types: [opened]
+
+jobs:
+  update-title:
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+    
+    steps:
+      - name: Update PR Title
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          PR_TITLE: ${{ github.event.pull_request.title }}
+          PR_AUTHOR: ${{ github.actor }}
+          REPO: ${{ github.repository }}
+        run: |
+          NEW_TITLE="${PR_TITLE} - ${PR_AUTHOR}"
+          
+          gh pr edit "$PR_NUMBER" --repo "$REPO" --title "$NEW_TITLE"
